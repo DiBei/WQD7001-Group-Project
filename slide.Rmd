@@ -1,0 +1,90 @@
+---
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+
+## Detection of blood sugar level in diabetes diagnosis
+
+### WQD7001 Principles of Data Science
+13 January 2022
+
+- Di Bei s2013283
+- Can Sun s2104926
+- Sheng Dong s2118080
+- Thoo Pooi Luen 17218141
+- Bingyan Li s2100331
+
+App url: https://crispopopo.shinyapps.io/Diabetes/  
+code: https://github.com/DiBei/WQD7001-Group-Project
+
+
+## About The App 
+
+### Features 
+
+<div style="float: left; width: 30%;">
+- Pregnancies
+- Glucose
+- Blood Pressure
+</div>
+
+<div style="float: left; width: 70%; font-size:20px">
+- Skin Thickness
+- Insulin
+- BMI
+- Diabetes Pedigree Function
+- Age
+</div>
+
+
+
+![](https://s3.bmp.ovh/imgs/2022/01/414cdf1c1fb8bb08.png)
+
+
+
+## Detection of blood sugar level in diabetes diagnosis
+#### Do you want to check your blood sugar levels?
+
+### Purposes
+<div style=" font-size:20px">
+- Figure out what factors could affect the blood sugar of diabetics.
+- Compare out what algorithm works the best in prediction blood sugar problem of diabetic.
+- Find out what method we could use to collect patient blood sugar.
+</div>
+
+
+### Who can use?
+
+<div style=" font-size:20px">
+The patient who has diabetes or anyone who wants test their own blood sugar.
+</div>
+
+
+<img src="https://s3.bmp.ovh/imgs/2022/01/19fb188077250687.png" width=90% />
+
+
+## Dataset and Data Science Process
+
+### Data Science Process:
+Design a shiny app to collect the blood sugar, height, weight, blood pressure  ...  
+From the date we collect we could combine the blood situation and personal detail to analyze the patient status and provided health status and predict the high risk.
+
+<img src = "https://s3.bmp.ovh/imgs/2022/01/b766834338b914b8.png" >
+
+We can see that diabetes is more closely related to Glucose, Blood Pressure and BMI.Note: 0 = Not Diabetic and 1 = Diabetic.
+
+
+## Summary of Experience 
+
+The dataset consists about 768 recipes and consists of 8 attributes in the original datasets
+Data source：Kaggle https://www.kaggle.com/mathchi/diabetes-data-set
+
+
+- How to check blood glucose levels and make health judgments
+- Process the data ready for modelling by using different libraries in RStudio.
+- Understand and build up the shiny app architecture.
+
+![](https://s3.bmp.ovh/imgs/2022/01/edaf2064a6f1beb1.png)
+
