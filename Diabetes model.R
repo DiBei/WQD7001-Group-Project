@@ -9,16 +9,6 @@ df = read.csv("F:/Mayur/ANALYTICS/Data scientist/Data scienc with R/Diabetes pre
 # Reviewing the data
 names(df)
 
-##==============================================Data set information==========================##
-# Pregnancies = Number of pregnancies had happpened
-# Glucose = Glucose level present in the body
-# Bloodpressure, Skinthickness, Insulin = Variables which explains the health of the person
-# BMI = Body mass index (to understand whether the person is underweight, fit or overweight
-# DiabetesPedigreeFunction = Probability of having diabetes
-# Age = Age of the person
-# Outcome = Dependent variable 0 = No diabetes, 1 = Diabetes Yes
-##============================================================================================##
-
 head(df)
 dim(df) # 768 rows and 9 columns
 colSums(is.na(df)) # no missing data in the data set
